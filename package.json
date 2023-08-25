@@ -53,4 +53,5 @@
     "vue-template-compiler": "^2.6.11",
     "webpack": "^5.64.0"
   }
+  "deploy": "npm run build:release && gh-pages -d dist"
 }
